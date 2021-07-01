@@ -1,0 +1,202 @@
+* {
+box-sizing:border-box;
+margin: 0;
+padding: 0;
+
+}
+li,a,button{
+    font-family: 'Hind', sans-serif;
+    font-weight:500;
+    font-size:16px;
+    color: black;
+    text-decoration:none;
+}
+header{
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+    padding:10px 8%;
+    background: linear-gradient(0deg,#CDEAF7,#94d3f5);
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav_links{
+    list-style:none;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color:rgb(8, 208, 235)
+}
+button{
+    padding: 9px 25px;
+    background-color: rgb(3, 171, 173);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition:  all 0.3s ease 0s;
+    margin: 5px;
+}
+button:hover{
+    background-color: rgba(0,136,139,0);
+}
+button2{
+    padding: 9px 25px;
+    background-color: rgb(4, 187, 190);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition:  all 0.3s ease 0s;
+}
+button2:hover{
+    background-color: rgba(0,136,139,0);
+}
+button3{
+    padding: 9px 25px;
+    background-color: rgb(83, 157, 158);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition:  all 0.3s ease 0s;
+}
+button3:hover{
+    background-color: rgba(0,136,139,0);
+}
+.banner
+{
+position:relative;
+width:100%;
+height:100vh;
+margin:2%;
+background-image: url("images/tree1.png");
+background-size: cover;
+float: left;
+}
+body{
+    overflow: hidden;
+    width:100%;
+    height:300vh;
+background: linear-gradient(180deg,#CDEAF7,#3099d1);
+background-size: cover;
+}
+.container1{
+    scroll-snap-type: y mandatory;
+overflow-y:auto;
+width:100%;
+height:100vh;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+    
+}
+section{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+text-align:center;
+width:100%;
+height:45vh;
+font-family: 'Bebas Neue', cursive;
+}
+section h1{
+font-size:4rem;
+}
+section p{
+    font-size:2.2rem;
+  }
+  .div2{
+      float:left;
+      width:50%;
+      height:40vh;
+  }
+#copacmare{
+    width:100%;
+}
+.grid2{
+ display:grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ width: 100%;
+height:47vh;
+}
+.grid1{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height:80vh;
+    scroll-snap-align: start;
+   }
+   .grid3{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    float:right;
+    width: 100%;
+   height:30vh;
+   scroll-snap-align: start;
+   }
+   .grid4{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    float:right;
+    width: 100%;
+   height:30vh;
+   }
+   .grid{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    float:right;
+    width: 100%;
+   height:30vh;
+   }
+   .div2{
+    float:left;
+    width:50%;
+    height:40vh;
+}
+.div3{
+    float:left;
+    width:50%;
+    height:40vh;
+ 
+}
+#treecounter h2{
+    font-size:2rem;
+    float:center;
+    text-align:center;
+}
+h2#counter{
+    margin-right: auto;
+    margin-left: auto;
+}
+#tnumber{
+    margin-right:auto;
+    margin-left:auto;
+}
+.box1{
+    float:right;
+    display:flex;
+    margin-right:15%;
+    margin-top:15%;
+    margin-bottom:15%;
+    margin-left:15%;
+}
+section p2{
+    display:center;
+    font-size:2.2rem;
+    margin-left:10%;
+    margin-right:10%;
+}
+.spatiu{
+    width:100%;
+    height:20vh;
+}
