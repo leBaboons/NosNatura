@@ -1,309 +1,442 @@
-*{
-    box-sizing:border-box;
-    margin: 0;
-    padding: 0;
-    background-color:#E8DED1;
-    }
-    html{height:100%}
-    li,a,button{
-        font-family: 'Hind', sans-serif;
-        font-weight:500;
-        font-size:16px;
-        color:#dadada;
-        text-decoration:none;
-    }
-    header{
-        display:flex;
-        justify-content: flex-end;
-        align-items:center;
-        padding:15px 8%;
-    }
-    .logo {
-        cursor: pointer;
-        margin-right: auto;
-    }
-    
-    .nav_links{
-        list-style:none;
-    }
-    .nav_links li {
-        display: inline-block;
-        padding: 0px 10px;
-    }
-    .nav_links li a {
-        transition: all 0.3s ease 0s;
-    }
-    .nav_links li a:hover{
-        color:rgb(0, 0, 0)
-    }
-    button4{
-        padding: 9px 25px;
-        background-color: #3D2314;
-        border: none;
-        border-radius: 50px;
-        cursor:pointer;
-        transition:  all 0.3s ease 0s;
-    }
-    button4:hover{
-        background-color: rgba(0,136,139,0);
-    }
-    button2{
-        padding: 9px 25px;
-        background-color: #3D2314;
-        border: none;
-        border-radius: 50px;
-        cursor:pointer;
-        transition:  all 0.3s ease 0s;
-    }
-    button2:hover{
-        background-color: rgba(0,136,139,0);
-    }
-    button3{
-        padding: 9px 25px;
-        background-color: #3D2314;
-        border: none;
-        border-radius: 50px;
-        cursor:pointer;
-        transition:  all 0.3s ease 0s;
-    }
-    button3:hover{
-        background-color: rgba(0,136,139,0);
-    }
-    body{
-       background-size: cover;
-       background-repeat: no-repeat; 
-       height:100%;
-       width:100%;
-    }
-    ::-webkit-scrollbar {
-      width: 10px;
-    }
-    ::-webkit-scrollbar-track {
-      background: #f1f1f1;
-    }
-    ::-webkit-scrollbar-thumb {
-      background: #3D2314;
-    }
-    ::-webkit-scrollbar-thumb:hover {
-      background: #555;
-    }
-    .title{
-      margin-left:auto;
-      margin-right:auto;
-      margin-top:auto;
-      margin-bottom:auto;
-      justify-content: center;
-      display:flex;
-      height:30%;
-      width:100%;
-    }
-    p{
-      font-family: 'Bebas Neue', cursive;
-      font-size:7rem;
-     margin:auto;
-     color:#3D2314;
-     text-shadow: #b1a493 3px 5px 2px;
-     
-    }
-    p2{
-      font-size:2rem;
-      justify-content: center;
-      display:flex;
-      margin:auto;
-      margin-left:auto;
-      margin-right:auto;
-      margin-top:auto;
-      margin-bottom:auto;
-      font-family: 'Prompt', sans-serif
-    }
-    .containerb {
-      margin-left:auto;
-      margin-right:auto;
-      margin-bottom: 15%;
-      margin-top: 5%;
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-template-rows: 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
-        gap: 10% 5%;
-        grid-auto-flow: row;
-        justify-content: center;
-        justify-items: center;
-        align-items: start;
-        grid-template-areas:
-          "sebipoza sebitext"
-          "mucpoza muctext"
-          "cezarpoza cezartext"
-          "calinpoza calintext"
-          "adipoza aditext"
-          "salapoza salatext"
-          "ianipoza ianitext"
-          "barbupoza barbutext"
-          "vladpoza vladtext"
-          "alinpoza Alintext";
-        width: 60.4%;
-        height: 400%;
-      }
-      .sebipoza {
-      
-        grid-area: sebipoza;
-        width: 4fr;
-        height: 3fr;
-        margin:auto;
-        justify-content: center;
-      display:flex;
-      }
-      .sebitext {
-      
-        grid-area: sebitext;
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-      display:flex;
-      color:#3D2314;
-      }
-      .mucpoza {
-      
-        grid-area: mucpoza;
-        width: 4fr;
-        height: 3fr;margin:auto;
-      }
-      .muctext {
-      
-        grid-area: muctext;
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-      display:flex;
-      color:#3D2314;
-      }
-      .cezarpoza {
-      
-        grid-area: cezarpoza;
-        width: 4fr;
-        height: 3fr;margin:auto;
-      }
-      .cezartext {
-      
-        grid-area: cezartext;
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-      display:flex;
-      color:#3D2314;
-    
-      }
-      .calinpoza {
-      
-        grid-area: calinpoza;
-        width: 4fr;
-        height: 3fr;margin:auto;
-      }
-      .calintext {
-      
-        grid-area: calintext;
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-      display:flex;
-      color:#3D2314;
-     
-      }
-      .ianipoza {
-      
-        grid-area: ianipoza;
-        width: 4fr;
-        height: 3fr;margin:auto;
-      }
-      .ianitext {
-      
-        grid-area: ianitext;
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-      display:flex;
-      color:#3D2314;
-      }
-      .adipoza {
-      
-        grid-area: adipoza;
-        width: 4fr;
-        height: 3fr;margin:auto;
-      }
-      
-      .aditext {
-      
-        grid-area: aditext;
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-      display:flex;
-      color:#3D2314;
-      }
-      .barbupoza {
-      
-        grid-area: barbupoza;
-        width: 4fr;
-        height: 3fr;;margin:auto;
-        
-      }
-      .barbutext {
-      
-        grid-area: barbutext;
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-      display:flex;
-      color:#3D2314;
-      }
-      .salapoza {
-      
-        grid-area: salapoza;
-        width: 4fr;
-        height: 3fr;margin:auto;
-      }
-      
-      .salatext {
-      
-        grid-area: salatext;
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-      display:flex;
-      color:#3D2314;
-      }
-      
-      .vladpoza {
-      
-        grid-area: vladpoza;
-        width: 4fr;
-        height: 3fr;
-        margin:auto;
-      }
-      
-      .vladtext {
-      
-        grid-area: vladtext;
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-      display:flex;
-      color:#3D2314;
-      }
-      
-      .alinpoza {
-      
-        grid-area: alinpoza;
-        width: 4fr;
-        height: 3fr;margin:auto;
-      }
-      
-      .Alintext {
-      
-        grid-area: Alintext;
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-      display:flex;
-      color:#3D2314;
-      }
-      
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #e8ded1;
+}
+html {
+  height: 100%;
+}
+li,
+a,
+button {
+  font-family: "Hind", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #dadada;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 8%;
+}
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.nav_links {
+  list-style: none;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+  color: rgb(0, 0, 0);
+}
+button4 {
+  padding: 9px 25px;
+  background-color: #3d2314;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button4:hover {
+  background-color: rgba(0, 136, 139, 0);
+}
+button2 {
+  padding: 9px 25px;
+  background-color: #3d2314;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button2:hover {
+  background-color: rgba(0, 136, 139, 0);
+}
+button3 {
+  padding: 9px 25px;
+  background-color: #3d2314;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button3:hover {
+  background-color: rgba(0, 136, 139, 0);
+}
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #3d2314;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  justify-content: center;
+  display: flex;
+  height: 30%;
+  width: 100%;
+}
+p {
+  font-family: "Bebas Neue", cursive;
+  font-size: 7rem;
+  margin: auto;
+  color: #3d2314;
+  text-shadow: #b1a493 3px 5px 2px;
+}
+p2 {
+  font-size: 2rem;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: "Prompt", sans-serif;
+}
+#container_sebi {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 0.8fr;
+  gap: 10% 5%;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: start;
+  grid-template-areas: "sebipoza sebitext";
+  width: 60.4%;
+  height: auto;
+}
+#container_muc {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 0.8fr;
+  gap: 10% 5%;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: start;
+  grid-template-areas: " muctext mucpoza";
+  width: 60.4%;
+}
+#container_cezar {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 0.8fr;
+  gap: 10% 5%;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: start;
+  grid-template-areas: "cezarpoza cezartext";
+  width: 60.4%;
+  height: auto;
+}
+#container_calin {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 0.8fr;
+  gap: 10% 5%;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: start;
+  grid-template-areas: "calintext calinpoza";
+  width: 60.4%;
+}
+#container_adi {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 0.8fr;
+  gap: 10% 5%;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: start;
+  grid-template-areas: "adipoza aditext";
+  width: 60.4%;
+  height: auto;
+}
+#container_sala {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 0.8fr;
+  gap: 10% 5%;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: start;
+  grid-template-areas: "salatext salapoza";
+  width: 60.4%;
+}
+#container_iani {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 0.8fr;
+  gap: 10% 5%;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: start;
+  grid-template-areas: "ianipoza ianitext";
+  width: 60.4%;
+  height: auto;
+}
+#container_barbu {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 0.8fr;
+  gap: 10% 5%;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: start;
+  grid-template-areas: "barbutext barbupoza";
+  width: 60.4%;
+}
+#container_vlad {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 0.8fr;
+  gap: 10% 5%;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: start;
+  grid-template-areas: "vladpoza vladtext";
+  width: 60.4%;
+  height: auto;
+}
+#container_alin {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 0.8fr;
+  gap: 10% 5%;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: start;
+  grid-template-areas: "Alintext alinpoza";
+  width: 60.4%;
+}
+
+.sebipoza {
+  grid-area: sebipoza;
+  width: 4fr;
+  height: 3fr;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+}
+.sebitext {
+  grid-area: sebitext;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  color: #3d2314;
+}
+.mucpoza {
+  grid-area: mucpoza;
+  width: 4fr;
+  height: 3fr;
+  margin: auto;
+}
+.muctext {
+  grid-area: muctext;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  color: #3d2314;
+}
+.cezarpoza {
+  grid-area: cezarpoza;
+  width: 4fr;
+  height: 3fr;
+  margin: auto;
+}
+.cezartext {
+  grid-area: cezartext;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  color: #3d2314;
+}
+.calinpoza {
+  grid-area: calinpoza;
+  width: 4fr;
+  height: 3fr;
+  margin: auto;
+}
+.calintext {
+  grid-area: calintext;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  color: #3d2314;
+}
+.ianipoza {
+  grid-area: ianipoza;
+  width: 4fr;
+  height: 3fr;
+  margin: auto;
+}
+.ianitext {
+  grid-area: ianitext;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  color: #3d2314;
+}
+.adipoza {
+  grid-area: adipoza;
+  width: 4fr;
+  height: 3fr;
+  margin: auto;
+}
+
+.aditext {
+  grid-area: aditext;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  color: #3d2314;
+}
+.barbupoza {
+  grid-area: barbupoza;
+  width: 4fr;
+  height: 3fr;
+  margin: auto;
+}
+.barbutext {
+  grid-area: barbutext;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  color: #3d2314;
+}
+.salapoza {
+  grid-area: salapoza;
+  width: 4fr;
+  height: 3fr;
+  margin: auto;
+}
+
+.salatext {
+  grid-area: salatext;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  color: #3d2314;
+}
+
+.vladpoza {
+  grid-area: vladpoza;
+  width: 4fr;
+  height: 3fr;
+  margin: auto;
+}
+
+.vladtext {
+  grid-area: vladtext;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  color: #3d2314;
+}
+
+.alinpoza {
+  grid-area: alinpoza;
+  width: 4fr;
+  height: 3fr;
+  margin: auto;
+}
+
+.Alintext {
+  grid-area: Alintext;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  color: #3d2314;
+}
+
+.rounded {
+  border-top: 8px solid #3d2314;
+  border-radius: 5px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
