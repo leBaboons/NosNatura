@@ -19,6 +19,6 @@ app.get("/map", function (req, res) {
   res.render("harta");
 });
 
-app.listen(3000, function () {
-  console.log("Server started on port 3000");
-});
+app.listen(3000,'192.168.3.88',function(){
+  console.log('Server running at http://127.0.1.1:8000/')
+})

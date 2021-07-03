@@ -2,7 +2,7 @@
     box-sizing:border-box;
     margin: 0;
     padding: 0;
-    background-color:#dadada;
+    background-color:#E8DED1;
     }
     html{height:100%}
     li,a,button{
@@ -38,7 +38,7 @@
     }
     button4{
         padding: 9px 25px;
-        background-color: rgb(66, 66, 66);
+        background-color: #3D2314;
         border: none;
         border-radius: 50px;
         cursor:pointer;
@@ -49,7 +49,7 @@
     }
     button2{
         padding: 9px 25px;
-        background-color: rgb(71, 71, 71);
+        background-color: #3D2314;
         border: none;
         border-radius: 50px;
         cursor:pointer;
@@ -60,7 +60,7 @@
     }
     button3{
         padding: 9px 25px;
-        background-color: rgb(70, 70, 70);
+        background-color: #3D2314;
         border: none;
         border-radius: 50px;
         cursor:pointer;
@@ -74,6 +74,18 @@
        background-repeat: no-repeat; 
        height:100%;
        width:100%;
+    }
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #3D2314;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555;
     }
     .title{
       margin-left:auto;
@@ -89,6 +101,8 @@
       font-family: 'Bebas Neue', cursive;
       font-size:7rem;
      margin:auto;
+     color:#3D2314;
+     text-shadow: #b1a493 3px 5px 2px;
      
     }
     p2{
@@ -145,6 +159,7 @@
         height: 100%;
         justify-content: center;
       display:flex;
+      color:#3D2314;
       }
       .mucpoza {
       
@@ -159,6 +174,7 @@
         height: 100%;
         justify-content: center;
       display:flex;
+      color:#3D2314;
       }
       .cezarpoza {
       
@@ -173,6 +189,8 @@
         height: 100%;
         justify-content: center;
       display:flex;
+      color:#3D2314;
+    
       }
       .calinpoza {
       
@@ -187,6 +205,8 @@
         height: 100%;
         justify-content: center;
       display:flex;
+      color:#3D2314;
+     
       }
       .ianipoza {
       
@@ -201,6 +221,7 @@
         height: 100%;
         justify-content: center;
       display:flex;
+      color:#3D2314;
       }
       .adipoza {
       
@@ -216,6 +237,7 @@
         height: 100%;
         justify-content: center;
       display:flex;
+      color:#3D2314;
       }
       .barbupoza {
       
@@ -231,6 +253,7 @@
         height: 100%;
         justify-content: center;
       display:flex;
+      color:#3D2314;
       }
       .salapoza {
       
@@ -246,6 +269,7 @@
         height: 100%;
         justify-content: center;
       display:flex;
+      color:#3D2314;
       }
       
       .vladpoza {
@@ -263,6 +287,7 @@
         height: 100%;
         justify-content: center;
       display:flex;
+      color:#3D2314;
       }
       
       .alinpoza {
@@ -279,5 +304,6 @@
         height: 100%;
         justify-content: center;
       display:flex;
+      color:#3D2314;
       }
       
