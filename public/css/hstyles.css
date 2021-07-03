@@ -1,82 +1,22 @@
 * {
-    box-sizing:border-box;
-    margin: 0;
-    padding: 0;
-    background-color:#dadada;
-    }
-    html{height:100%}
-    li,a,button{
-        font-family: 'Hind', sans-serif;
-        font-weight:500;
-        font-size:16px;
-        color:#dadada;
-        text-decoration:none;
-    }
-    header{
-        width: 100%;
-        height: 55px;
-        z-index: 2;
-        position: fixed;
-        display:flex;
-        justify-content: flex-end;
-        align-items:center;
-        padding:15px 8%;
-    }
-    .logo {
-        cursor: pointer;
-        margin-right: auto;
-    }
-    
-    .nav_links{
-        list-style:none;
-    }
-    .nav_links li {
-        display: inline-block;
-        padding: 0px 10px;
-    }
-    .nav_links li a {
-        transition: all 0.3s ease 0s;
-    }
-    .nav_links li a:hover{
-        color:rgb(0, 0, 0)
-    }
-    button4{
-        padding: 9px 25px;
-        background-color: rgb(66, 66, 66);
-        border: none;
-        border-radius: 50px;
-        cursor:pointer;
-        transition:  all 0.3s ease 0s;
-    }
-    button4:hover{
-        background-color: rgba(0,136,139,0);
-    }
-    button2{
-        padding: 9px 25px;
-        background-color: rgb(71, 71, 71);
-        border: none;
-        border-radius: 50px;
-        cursor:pointer;
-        transition:  all 0.3s ease 0s;
-    }
-    button2:hover{
-        background-color: rgba(0,136,139,0);
-    }
-    button3{
-        padding: 9px 25px;
-        background-color: rgb(70, 70, 70);
-        border: none;
-        border-radius: 50px;
-        cursor:pointer;
-        transition:  all 0.3s ease 0s;
-    }
-    button3:hover{
-        background-color: rgba(0,136,139,0);
-    }
-    body{
-       background-size: cover;
-       background-repeat: no-repeat; 
-       height:100%;
-       width:100%;
-    }
-   
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a,
+button {
+  font-family: "Hind", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #dadada;
+  text-decoration: none;
+}
+
+body {
+  background-color: #e8ded1;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}

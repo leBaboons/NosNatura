@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
   integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,70 +16,59 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="styles.css">
   <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
-  <header>
-    <img class="logo" src="images/logo.png" width="15%" height="15%">
-    <nav>
-      <ul class="nav_links">
-        <li><a class="cta" href="/">
-            <button3>Home</button>
-          </a></li>
-        <li><a class="cta" href="/map"><button>Map</button></a></li>
-        <li><a class="cta" href="/about">
-            <button2>About Us</button>
-          </a></li>
-      </ul>
-    </nav>
-  </header>
-  <div class="container1">
-    <div class="grid1">
-      <section id="first">
-        <h1>Nos Natura Project</h1>
-        <p>for a greener world</p>
-        <p>Est.2021</p>
-      </section>
-      <div2 class="grid2">
-        <?xml version="1.0" encoding="utf-8"?>
-        <%- include("partials/svg") -%>
-          <section id="treecounter">
-            <h2 id="counter">TOTAL NUMBER OF TREES PLANTED</h2>
-            <p id="tnumber">0</p>
-          </section>
-      </div2>
-      <div3 class="grid3">
-        <div class="box1">
-          <img class="logo" src="images/placeholder.png" width="100%" height="100%">
-        </div>
-        <div class="box2">
-          <section id="second">
-            <p2>This project is 100% funded by the founding members of Nos Natura with their personal money and if it
-              gets too big for our financial powers, only then will we request donations and volunteer support to keep
-              it running. Being just the nine of us at the moment, that could happen rather quickly.</p2>
-          </section>
-        </div>
-      </div3>
-      <div class="spatiu"></div>
-      <div3 class="grid4">
-        <div class="box2">
-          <section id="second">
-            <p2>Each and every single member (person in the photo) is dedicated to this cause and believes that nature
-              deserves a helping hand in the constant fight against pollution and deforestation, even if it makes only a
-              slight change in the grand scheme of things. You can read more about us as individuals as well as the
-              project itself on the About Us page.</p2>
-          </section>
-        </div>
-        <div class="box1">
-          <img class="logo" src="images/placeholder.png" width="100%" height="100%">
-        </div>
-      </div3>
+  <%- include("partials/header") -%>
+    <div class="container1">
+      <div class="grid1">
+        <section id="first">
+          <h1>Nos Natura Project</h1>
+          <p>for a greener world</p>
+          <p>Est.2021</p>
+        </section>
+        <div2 class="grid2">
+          <?xml version="1.0" encoding="utf-8"?>
+          <%- include("partials/svg") -%>
+            <section id="treecounter">
+              <h2 id="counter">TOTAL NUMBER OF TREES PLANTED</h2>
+              <p id="tnumber">0</p>
+            </section>
+        </div2>
+        <div3 class="grid3">
+          <div class="box1">
+            <img class="logo" src="images/placeholder.png" width="100%" height="100%">
+          </div>
+          <div class="box2">
+            <section id="second">
+              <p2>This project is 100% funded by the founding members of Nos Natura with their personal money and if it
+                gets too big for our financial powers, only then will we request donations and volunteer support to keep
+                it running. Being just the nine of us at the moment, that could happen rather quickly.</p2>
+            </section>
+          </div>
+        </div3>
+        <div class="spatiu"></div>
+        <div3 class="grid4">
+          <div class="box2">
+            <section id="second">
+              <p2>Each and every single member (person in the photo) is dedicated to this cause and believes that nature
+                deserves a helping hand in the constant fight against pollution and deforestation, even if it makes only
+                a
+                slight change in the grand scheme of things. You can read more about us as individuals as well as the
+                project itself on the About Us page.</p2>
+            </section>
+          </div>
+          <div class="box1">
+            <img class="logo" src="images/placeholder.png" width="100%" height="100%">
+          </div>
+        </div3>
+      </div>
     </div>
-  </div>
-  <script type="text/javascript">
-    window.addEventListener("scroll", function () {
-      var header = document.querySelector("header");
-      header.classList.toggle(sticky, window.scrollY > 0);
-    })
-  </script>
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle(sticky, window.scrollY > 0);
+      })
+    </script>
 </body>
