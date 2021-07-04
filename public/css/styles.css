@@ -109,6 +109,7 @@ section p {
 h2#counter {
   margin-right: auto;
   margin-left: auto;
+  font-size: 2rem;
 }
 #tnumber {
   margin-right: auto;
