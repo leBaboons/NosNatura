@@ -41,9 +41,8 @@ section {
   font-family: "PT Sans Caption", sans-serif;
 }
 section h1 {
-  font-size: 6.3rem;
+  font-size: 8.3rem;
   color: #3d2314;
-  text-shadow: #b86a3d 3px 5px 2px;
 }
 section p {
   font-size: 3.6rem;
@@ -132,4 +131,15 @@ section p2 {
 .spatiu {
   width: 100%;
   height: 23vh;
+}
+#greener {
+  font-size: 4.6rem;
+}
+#scroll {
+  font-size: 2.6rem;
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.3);
+  bottom: 0%;
 }

@@ -64,7 +64,6 @@ p2 {
   margin-top: auto;
   margin-bottom: auto;
   font-family: "Prompt", sans-serif;
- 
 }
 #container_sebi {
   margin-left: auto;
@@ -82,7 +81,6 @@ p2 {
   grid-template-areas: "sebipoza sebitext";
   width: 60.4%;
   height: auto;
-  
 }
 #container_muc {
   margin-left: auto;
@@ -240,6 +238,7 @@ p2 {
   margin: auto;
   justify-content: center;
   display: flex;
+  border-radius: 50%;
 }
 .sebitext {
   grid-area: sebitext;
@@ -254,6 +253,7 @@ p2 {
   width: 4fr;
   height: 3fr;
   margin: auto;
+  border-radius: 50%;
 }
 .muctext {
   grid-area: muctext;
@@ -264,6 +264,7 @@ p2 {
   color: #3d2314;
 }
 .cezarpoza {
+  border-radius: 50%;
   grid-area: cezarpoza;
   width: 4fr;
   height: 3fr;
@@ -278,6 +279,7 @@ p2 {
   color: #3d2314;
 }
 .calinpoza {
+  border-radius: 50%;
   grid-area: calinpoza;
   width: 4fr;
   height: 3fr;
@@ -292,6 +294,7 @@ p2 {
   color: #3d2314;
 }
 .ianipoza {
+  border-radius: 50%;
   grid-area: ianipoza;
   width: 4fr;
   height: 3fr;
@@ -306,6 +309,7 @@ p2 {
   color: #3d2314;
 }
 .adipoza {
+  border-radius: 50%;
   grid-area: adipoza;
   width: 4fr;
   height: 3fr;
@@ -321,6 +325,7 @@ p2 {
   color: #3d2314;
 }
 .barbupoza {
+  border-radius: 50%;
   grid-area: barbupoza;
   width: 4fr;
   height: 3fr;
@@ -335,6 +340,7 @@ p2 {
   color: #3d2314;
 }
 .salapoza {
+  border-radius: 50%;
   grid-area: salapoza;
   width: 4fr;
   height: 3fr;
@@ -351,6 +357,7 @@ p2 {
 }
 
 .vladpoza {
+  border-radius: 50%;
   grid-area: vladpoza;
   width: 4fr;
   height: 3fr;
@@ -367,6 +374,7 @@ p2 {
 }
 
 .alinpoza {
+  border-radius: 50%;
   grid-area: alinpoza;
   width: 4fr;
   height: 3fr;
