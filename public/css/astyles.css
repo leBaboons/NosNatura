@@ -49,13 +49,13 @@ body {
 }
 p {
   font-family: "Bebas Neue", cursive;
-  font-size: 7rem;
+  font-size: 5vw;
   margin: auto;
   color: #3d2314;
   text-shadow: #b1a493 3px 5px 2px;
 }
 p2 {
-  font-size: 2rem;
+  font-size: 1.4vw;
   justify-content: center;
   display: flex;
   margin: auto;

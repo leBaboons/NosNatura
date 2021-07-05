@@ -8,7 +8,7 @@ a,
 button {
   font-family: "Hind", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 0.8vw;
   color: #ecd2b1;
   text-decoration: none;
 }
@@ -41,11 +41,11 @@ section {
   font-family: "PT Sans Caption", sans-serif;
 }
 section h1 {
-  font-size: 8.3rem;
+  font-size: 5.6vw;
   color: #3d2314;
 }
 section p {
-  font-size: 3.6rem;
+  font-size: 1.6vw;
   color: #3d2314;
 }
 .div2 {
@@ -102,14 +102,14 @@ section p {
   height: 40vh;
 }
 #treecounter h2 {
-  font-size: 2rem;
+  font-size: 1vw;
   float: center;
   text-align: center;
 }
 h2#counter {
   margin-right: auto;
   margin-left: auto;
-  font-size: 2rem;
+  font-size: 1vw;
 }
 #tnumber {
   margin-right: auto;
@@ -125,7 +125,7 @@ h2#counter {
 }
 section p2 {
   display: center;
-  font-size: 2.2rem;
+  font-size: 1.6vw;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -134,10 +134,10 @@ section p2 {
   height: 23vh;
 }
 #greener {
-  font-size: 4.6rem;
+  font-size: 2vw;
 }
 #scroll {
-  font-size: 2.6rem;
+  font-size: 1vw;
   text-align: center;
   width: 100%;
   height: 60px;
