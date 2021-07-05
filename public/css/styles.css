@@ -16,7 +16,7 @@ button {
 body {
   overflow: hidden;
   width: 100%;
-  height: 300vh;
+  height: 340vh;
   background: linear-gradient(180deg, #e8ded1, #ecd2b1);
   background-size: cover;
 }

@@ -252,6 +252,9 @@ p2 {
   justify-content: center;
   display: flex;
   border-radius: 50%;
+  border: 2px ridge #92806c;
+  
+  
 }
 .sebitext {
   grid-area: sebitext;
@@ -267,6 +270,7 @@ p2 {
   height: 3fr;
   margin: auto;
   border-radius: 50%;
+  border: 2px ridge #92806c;
 }
 .muctext {
   grid-area: muctext;
@@ -282,6 +286,7 @@ p2 {
   width: 4fr;
   height: 3fr;
   margin: auto;
+  border: 2px ridge #92806c;
 }
 .cezartext {
   grid-area: cezartext;
@@ -297,6 +302,7 @@ p2 {
   width: 4fr;
   height: 3fr;
   margin: auto;
+  border: 2px ridge #92806c;
 }
 .calintext {
   grid-area: calintext;
@@ -312,6 +318,7 @@ p2 {
   width: 4fr;
   height: 3fr;
   margin: auto;
+  border: 2px ridge #92806c;
 }
 .ianitext {
   grid-area: ianitext;
@@ -327,6 +334,7 @@ p2 {
   width: 4fr;
   height: 3fr;
   margin: auto;
+  border: 2px ridge #92806c;
 }
 
 .aditext {
@@ -343,6 +351,7 @@ p2 {
   width: 4fr;
   height: 3fr;
   margin: auto;
+  border: 2px ridge #92806c;
 }
 .barbutext {
   grid-area: barbutext;
@@ -358,6 +367,7 @@ p2 {
   width: 4fr;
   height: 3fr;
   margin: auto;
+  border: 2px ridge #92806c;
 }
 
 .salatext {
@@ -375,6 +385,7 @@ p2 {
   width: 4fr;
   height: 3fr;
   margin: auto;
+  border: 2px ridge #92806c;
 }
 
 .vladtext {
@@ -392,6 +403,7 @@ p2 {
   width: 4fr;
   height: 3fr;
   margin: auto;
+  border: 2px ridge #92806c;
 }
 
 .Alintext {
