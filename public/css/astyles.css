@@ -81,6 +81,7 @@ p2 {
   grid-template-areas: "sebipoza sebitext";
   width: 60.4%;
   height: auto;
+  scroll-snap-align: center;
 }
 #container_muc {
   margin-left: auto;
@@ -97,6 +98,8 @@ p2 {
   align-items: start;
   grid-template-areas: " muctext mucpoza";
   width: 60.4%;
+  scroll-snap-align: center;
+  
 }
 #container_cezar {
   margin-left: auto;
@@ -114,6 +117,7 @@ p2 {
   grid-template-areas: "cezarpoza cezartext";
   width: 60.4%;
   height: auto;
+  scroll-snap-align: center;
 }
 #container_calin {
   margin-left: auto;
@@ -130,6 +134,7 @@ p2 {
   align-items: start;
   grid-template-areas: "calintext calinpoza";
   width: 60.4%;
+  scroll-snap-align: center;
 }
 #container_adi {
   margin-left: auto;
@@ -147,6 +152,7 @@ p2 {
   grid-template-areas: "adipoza aditext";
   width: 60.4%;
   height: auto;
+  scroll-snap-align: center;
 }
 #container_sala {
   margin-left: auto;
@@ -163,6 +169,7 @@ p2 {
   align-items: start;
   grid-template-areas: "salatext salapoza";
   width: 60.4%;
+  scroll-snap-align: center;
 }
 #container_iani {
   margin-left: auto;
@@ -180,6 +187,8 @@ p2 {
   grid-template-areas: "ianipoza ianitext";
   width: 60.4%;
   height: auto;
+  scroll-margin: 5% 0 0 5%;
+  scroll-snap-align: center;
 }
 #container_barbu {
   margin-left: auto;
@@ -196,6 +205,8 @@ p2 {
   align-items: start;
   grid-template-areas: "barbutext barbupoza";
   width: 60.4%;
+  scroll-snap-align: center;
+  
 }
 #container_vlad {
   margin-left: auto;
@@ -213,6 +224,7 @@ p2 {
   grid-template-areas: "vladpoza vladtext";
   width: 60.4%;
   height: auto;
+  scroll-snap-align: center;
 }
 #container_alin {
   margin-left: auto;
@@ -229,6 +241,7 @@ p2 {
   align-items: start;
   grid-template-areas: "Alintext alinpoza";
   width: 60.4%;
+  scroll-snap-align: center;
 }
 
 .sebipoza {
@@ -395,4 +408,15 @@ p2 {
   border-radius: 5px;
   margin-left: 30%;
   margin-right: 30%;
+}
+.snapaux{
+  height: 100%;
+  width: 100%;
+  scroll-snap-type: y proximity;
+  overflow-y: auto;
+}
+.snapstart{
+  height: 100%;
+  width: 100%;
+  scroll-snap-align: start;
 }
