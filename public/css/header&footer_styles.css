@@ -9,7 +9,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 10px 8%;
+  padding: 0.5vw 8vw;
   background: linear-gradient(0deg, #e8ded1, #ecd2b1);
 }
 .logo {
@@ -22,7 +22,7 @@ header {
 }
 .nav_links li {
   display: inline-block;
-  padding: 0px 10px;
+  padding: 0px 0.5vw;
 }
 .nav_links li a {
   transition: all 0.3s ease 0s;
@@ -32,13 +32,13 @@ header {
 }
 button {
   width: 7vw;
-  padding: 9px 25px;
+  padding: 0.45vw 1.25vw;
   background-color: #3d2314;
   border: none;
-  border-radius: 50px;
+  border-radius: 2.5vw;
   cursor: pointer;
   transition: all 0.3s ease 0s;
-  margin: 5px;
+  margin: 0.25vw;
 }
 button:hover {
   background-color:#ad9b83;
@@ -48,11 +48,11 @@ footer{
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 10px 8%;
-  width: 100%;
+  padding: 0.5vw 8vw;
+  width: 100vw;
   height: 12vh;
   background-color:#ceb698 ;
-  box-shadow: 0 -5px 6px #a8937c;
+  box-shadow: 0 -0.25vw 0.3vw #a8937c;
 }
 #media{
   width:30vw;
@@ -61,5 +61,5 @@ footer{
   justify-content: flex-end;
 }
 .iglogo{
-  filter: drop-shadow(3px 1px 0.4px #a8937c);
+  filter: drop-shadow(0.15vw 0.05vw 0.01vw #a8937c);
 }

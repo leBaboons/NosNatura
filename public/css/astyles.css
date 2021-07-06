@@ -26,7 +26,7 @@ body {
   width: 100%;
 }
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 1vw;
 }
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
@@ -44,8 +44,8 @@ body {
   margin-bottom: auto;
   justify-content: center;
   display: flex;
-  height: 30%;
-  width: 100%;
+  height: 30vh;
+  width: 100vw;
 }
 p {
   font-family: "Bebas Neue", cursive;
@@ -416,10 +416,10 @@ p2 {
 }
 
 .rounded {
-  border-top: 8px solid #3d2314;
-  border-radius: 5px;
-  margin-left: 30%;
-  margin-right: 30%;
+  border-top: 0.4vw solid #3d2314;
+  border-radius: 0.25vw;
+  margin-left: 30vw;
+  margin-right: 30vw;
 }
 .snapaux{
   height: 100%;
