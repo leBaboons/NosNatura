@@ -1,0 +1,36 @@
+
+/* mobile design */
+/* functioneaza la toate telefoanele testate */
+
+@media (max-width : 420px ) {
+    #treecounter {
+      height : 15vh ;
+    }
+    .grid2 {
+      height: 27vh;
+    }
+    #copacmare {
+      visibility: hidden;
+    }
+    #treecounter h2{
+      font-size: 3.5vw ;
+    }
+    #tnumber {
+      font-size: 3.5vw ;
+    }
+    #first h1 {
+      font-size: 7vw ;
+    }
+    #first p {
+      font-size: 3.5vw ;
+    }
+    #second p2 {
+      font-size: 2.5vw ;
+    }
+}
+
+/* ipad + alte tablete design */
+
+@media (max-width : 770px) {
+
+}
