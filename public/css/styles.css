@@ -12,7 +12,16 @@ button {
   color: #ecd2b1;
   text-decoration: none;
 }
+.outer1{
+  width: 100vw;
+  height:100vh;
+  position:relative;
 
+}
+.outer{
+width: 100vw;
+height: 200vh;
+}
 body {
   overflow: hidden;
   width: 100%;
@@ -45,7 +54,7 @@ section h1 {
   color: #3d2314;
 }
 section p {
-  font-size: 1.6vw;
+  font-size: 2vw;
   color: #3d2314;
 }
 .div2 {
@@ -109,7 +118,10 @@ section p {
 h2#counter {
   margin-right: auto;
   margin-left: auto;
-  font-size: 1vw;
+  font-size: 1.9vw;
+}
+.photot2{
+  transform: scaleX(-1);
 }
 #tnumber {
   margin-right: auto;
