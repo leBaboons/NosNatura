@@ -2,36 +2,16 @@
 /* mobile design */
 /* functioneaza la toate telefoanele testate */
 
-@media (max-width : 600px ) {
-    #treecounter {
-      height : 15vh ;
-    }
-    .grid2 {
-      height: 27vh;
-    }
-    #copacmare {
-      visibility: hidden;
-    }
-    #treecounter h2{
-      font-size: 3.5vw ;
-    }
-    #tnumber {
-      font-size: 3.5vw ;
-    }
-    #first h1 {
-      font-size: 7vw ;
-    }
-    #first p {
-      font-size: 3.5vw ;
-    }
-    #second p2 {
-      font-size: 2.5vw ;
-    }
-}
-
-/* ipad + alte tablete */
 
 @media (max-width : 950px) {
+  body{
+    background: linear-gradient(180deg, #e8ded1, #ecd2b1);
+  }
+  .m1{
+    height:24vh;
+    width:32vw;
+    margin: auto;
+  }
   #treecounter {
     height : 15vh ;
   }
@@ -39,18 +19,157 @@
     height: 30vh;
   }
   #treecounter h2{
-    font-size: 3vw ;
+    font-size: 2vw ;
   }
   #tnumber {
-    font-size: 3vw ;
+    font-size: 2vw ;
   }
   #first h1 {
     font-size: 7vw ;
   }
   #first p {
-    font-size: 3.5vw ;
+    font-size: 2vw ;
   }
   #second p2 {
-    font-size: 2.5vw ;
+    font-size: 2vw ;
+  }
+  .grid3 {
+    display: grid;
+    grid-template-rows  : 1fr 2fr;
+    float: right;
+    width: 100%;
+    height: 30vh;
+    scroll-snap-align: start;
+  }
+  .grid4 {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    float: right;
+    width: 100%;
+    height: 30vh;
   }
 }
+@media (max-width : 600px ) {
+  #copacmare {
+    visibility: hidden;
+  }
+  .box1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: normal;
+    align-content: normal;
+    height:100vh;
+    margin-bottom: 10vh;
+  }
+  .box8 {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: normal;
+    height:100vh;
+    align-content: normal;
+  }
+  .poza1{
+    object-fit: contain;
+    display: block;margin: auto;
+    width: 80vw;
+    height:60vw;
+    flex-grow: 0;
+    flex-shrink: 1;
+    order: 0;
+  }
+  .poza5{
+    display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  }
+  .box2{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin: auto;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 90%;
+    margin-bottom: auto;
+  }
+  .box9{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin: auto;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 90%;
+    margin-bottom: auto;
+  }
+  .m1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 5;
+    
+  }
+  .m2{
+    width: 100%;
+    height: 100%;
+    border-radius: 5;
+    
+  }
+  #treecounter {
+    height : 15vh ;
+  }
+  .grid2 {
+    height: 30vh;
+  }
+  .grid2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    width: 100%;
+    height: 47vh;
+  }
+  #treecounter h2{
+    font-size: 4vw ;
+  }
+  #tnumber {
+    font-size: 5vw ;
+  }
+  #first h1 {
+    font-size: 10vw ;
+  }
+ section p {
+    font-size: 10vw ;
+    text-align: center;
+  }
+ p2 {
+    font-size: 4vw ;
+    text-align: center;
+  }
+  body{
+    background: linear-gradient(180deg, #e8ded1, #ecd2b1);
+  }
+  .grid3 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  float: right;
+  width: 100%;
+  height: 30vh;
+  scroll-snap-align: start;
+}
+.grid4 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  float: right;
+  width: 100%;
+  height: 30vh;
+}
+}
+
+/* ipad + alte tablete */

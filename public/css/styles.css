@@ -25,7 +25,7 @@ height: 200vh;
 body {
   overflow: hidden;
   width: 100%;
-  height: 340vh;
+  height: 360vh;
   background: linear-gradient(180deg, #e8ded1, #ecd2b1);
   background-size: cover;
 }
@@ -48,6 +48,19 @@ section {
   width: 100%;
   height: 45vh;
   font-family: "PT Sans Caption", sans-serif;
+}
+.m1{
+  height: 30vh;
+  margin:auto;  
+  border-radius: 25px;
+  
+}
+.m2{
+
+  height: 30vh;
+  margin:auto;  
+  border-radius: 25px;
+  
 }
 section h1 {
   font-size: 5.6vw;
@@ -78,20 +91,54 @@ section p {
   height: 80vh;
   scroll-snap-align: start;
 }
-.grid3 {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  float: right;
-  width: 100%;
-  height: 30vh;
-  scroll-snap-align: start;
+.poza1{
+  float:left;
+  margin-right:auto ;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
 }
-.grid4 {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  float: right;
-  width: 100%;
-  height: 30vh;
+.poza5{
+  float:left;
+  margin-right:auto ;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+.text1{
+  float:right;
+  display: center;
+  height:100%;
+  width:70%;
+  margin-right:auto ;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.box2{
+  width: 65%;
+  height:40%;
+  text-align:center;
+ margin-left:auto;
+ margin-top:auto;
+ margin-bottom: auto;
+}
+.box9{
+  width: 65%;
+  height:40%;
+  text-align:center;
+ margin-right:auto;
+ margin-top:auto;
+ margin-bottom: auto;
 }
 .grid {
   display: grid;
@@ -99,6 +146,11 @@ section p {
   float: right;
   width: 100%;
   height: 30vh;
+}
+.grid3{
+  scroll-snap-align: start;
+  height:100vh;
+  width: 100vw;
 }
 .div2 {
   float: left;
@@ -128,18 +180,39 @@ h2#counter {
   margin-left: auto;
 }
 .box1 {
-  float: right;
+  margin-bottom: auto;
+  padding-right:10%;
+  padding-left:10%;
+  height:40vh;
+  width: 100vw;
   display: flex;
-  margin-right: 15%;
-  margin-top: 15%;
-  margin-bottom: 15%;
-  margin-left: 15%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: normal;
+  align-content: normal;
 }
-section p2 {
-  display: center;
+.box8 {
+  margin-top: auto;
+  padding-right:10%;
+  padding-left:10%;
+  height:40vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: normal;
+  align-content: normal;
+  scroll-snap-align: start;
+}
+
+p2{
+  text-align:center;
   font-size: 1.6vw;
   margin-left: 10%;
   margin-right: 10%;
+  margin:auto;
 }
 .spatiu {
   width: 100%;
