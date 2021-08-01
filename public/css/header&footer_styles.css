@@ -1,87 +1,4 @@
-@media (max-width : 600px ) {
-  button {
-    font-family: "Hind", sans-serif;
-    font-weight: 500;
-    font-size: 0.8vw;
-    color: #ecd2b1;
-    text-decoration: none;
-  }
-  header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 0.5vw 8vw;
-    background: linear-gradient(0deg, #e8ded1, #000000);
-  }
-  .logo {
-    cursor: pointer;
-    margin-right: auto;
-  }
-  
-  .nav_links {
-    list-style: none;
-  }
-  .nav_links li {
-    display: inline-block;
-    padding: 0px 1vw;
-  }
-  .nav_links li a {
-    transition: all 0.3s ease 0s;
-  }
-  .nav_links li a:hover {
-    color: #3d2314;
-  }
-  button {
-    width: 15vw;
-    padding: 0.9vw 2.5vw;
-    background-color: #3d2314;
-    border: none;
-    border-radius: 2.5vw;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    margin: 0.5vw;
-  }
-  button:hover {
-    background-color:#ad9b83;
-    color: #3d2314;
-  }
-  footer{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 1vw 16vw;
-    width: 100vw;
-    height: 12vh;
-    background-color:#ceb698 ;
-    box-shadow: 0 -0.25vw 0.3vw #a8937c;
-  }
-  #media{
-    width:30vw;
-    height:6vh;
-    margin: auto;
-    justify-content: flex-end;
-  }
-  .iglogo{
-    filter: drop-shadow(0.15vw 0.05vw 0.01vw #a8937c);
-  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
 button {
   font-family: "Hind", sans-serif;
   font-weight: 500;
@@ -97,10 +14,12 @@ header {
   background: linear-gradient(0deg, #e8ded1, #ecd2b1);
 }
 .logo {
-  cursor: pointer;
   margin-right: auto;
 }
-
+.logo9{
+  width: 27vw;
+  margin-right: auto;
+  }
 .nav_links {
   list-style: none;
 }
@@ -146,4 +65,147 @@ footer{
 }
 .iglogo{
   filter: drop-shadow(0.15vw 0.05vw 0.01vw #a8937c);
+}
+@media screen and (max-width : 600px ) {
+  button {
+    font-family: "Hind", sans-serif;
+    font-weight: 500;
+    font-size: 1.5vw;
+    color: #ecd2b1;
+    text-decoration: none;
+  }
+  header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.5vw 8vw;
+    background: linear-gradient(0deg, #e8ded1, #ecd2b1);
+  }
+  .logo {
+    cursor: pointer;
+    margin-right: auto;
+  }
+  .logo9{
+    width: 27vw;
+    margin-right: auto;
+    }
+  .nav_links {
+    list-style: none;
+  }
+  .nav_links li {
+    display: inline-block;
+    padding: 0px 1vw;
+  }
+  .nav_links li a {
+    transition: all 0.3s ease 0s;
+  }
+  .nav_links li a:hover {
+    color: #3d1414;
+  }
+  button {
+    width: 15vw;
+    height: 3vh;
+    padding: 0.9vw 2.5vw;
+    background-color: #3d2314;
+    border: none;
+    border-radius: 2.5vw;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin: 0.5vw;
+  }
+  button:hover {
+    background-color:#ad9b83;
+    color: #3d2314;
+  }
+  footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1vw 16vw;
+    width: 100vw;
+    height: 12vh;
+    background-color:#ceb698 ;
+    box-shadow: 0 -0.25vw 0.3vw #a8937c;
+  }
+  #media{
+    width:30vw;
+    height:6vh;
+    margin: auto;
+    justify-content: flex-end;
+  }
+  .iglogo{
+    filter: drop-shadow(0.15vw 0.05vw 0.01vw #a8937c);
+  }
+}
+@media screen and (max-width : 950px ) {
+  button {
+    font-family: "Hind", sans-serif;
+    font-weight: 500;
+    font-size: 1.5vw;
+    color: #ecd2b1;
+    text-decoration: none;
+  }
+  header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.5vw 8vw;
+    background: linear-gradient(0deg, #e8ded1, #ecd2b1);
+  }
+  .logo {
+    cursor: pointer;
+    margin-right: auto;
+  }
+  .logo9{
+    width: 27vw;
+    margin-right: auto;
+    }
+  
+  .nav_links {
+    list-style: none;
+  }
+  .nav_links li {
+    display: inline-block;
+    padding: 0px 1vw;
+  }
+  .nav_links li a {
+    transition: all 0.3s ease 0s;
+  }
+  .nav_links li a:hover {
+    color: #3d1414;
+  }
+  button {
+    width: 12vw;
+    height: 4vh;
+    padding: 0.9vw 2.5vw;
+    background-color: #3d2314;
+    border: none;
+    border-radius: 2.5vw;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin: 0.5vw;
+  }
+  button:hover {
+    background-color:#ad9b83;
+    color: #3d2314;
+  }
+  footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1vw 16vw;
+    width: 100vw;
+    height: 12vh;
+    background-color:#ceb698 ;
+    box-shadow: 0 -0.25vw 0.3vw #a8937c;
+  }
+  #media{
+    width:30vw;
+    height:6vh;
+    margin: auto;
+    justify-content: flex-end;
+  }
+  .iglogo{
+    filter: drop-shadow(0.15vw 0.05vw 0.01vw #a8937c);
+  }
 }

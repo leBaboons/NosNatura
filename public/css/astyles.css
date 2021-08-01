@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -44,6 +45,8 @@ body {
   margin-bottom: auto;
   justify-content: center;
   display: flex;
+  padding-top:10vh;
+  padding-bottom:10vh;
   height: 30vh;
   width: 100vw;
 }
@@ -431,4 +434,228 @@ p2 {
   height: 100%;
   width: 100%;
   scroll-snap-align: start;
+}
+@media (max-width : 600px){
+  .sebipoza {
+    grid-area: sebipoza;
+    width: 8fr;
+    height: 6fr;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    border: 2px ridge #92806c;
+    
+    
+  }
+  .sebitext {
+    grid-area: sebitext;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    color: #3d2314;
+  }
+  #container_sebi {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 0.8fr;
+    gap: 10% 5%;
+    grid-auto-flow: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: start;
+    grid-template-areas: "sebipoza sebitext";
+    width: 90.4%;
+    height: auto;
+    scroll-snap-align: center;
+  }
+  #container_muc {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 0.8fr;
+    gap: 10% 5%;
+    grid-auto-flow: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: start;
+    grid-template-areas: " muctext mucpoza";
+    width: 90.4%;
+    scroll-snap-align: center;
+    
+  }
+  #container_cezar {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 0.8fr;
+    gap: 10% 5%;
+    grid-auto-flow: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: start;
+    grid-template-areas: "cezarpoza cezartext";
+    width: 90.4%;
+    height: auto;
+    scroll-snap-align: center;
+  }
+  #container_calin {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 0.8fr;
+    gap: 10% 5%;
+    grid-auto-flow: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: start;
+    grid-template-areas: "calintext calinpoza";
+    width: 90.4%;
+    scroll-snap-align: center;
+  }
+  #container_adi {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 0.8fr;
+    gap: 10% 5%;
+    grid-auto-flow: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: start;
+    grid-template-areas: "adipoza aditext";
+    width: 90.4%;
+    height: auto;
+    scroll-snap-align: center;
+  }
+  #container_sala {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 0.8fr;
+    gap: 10% 5%;
+    grid-auto-flow: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: start;
+    grid-template-areas: "salatext salapoza";
+    width: 90.4%;
+    scroll-snap-align: center;
+  }
+  #container_iani {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 0.8fr;
+    gap: 10% 5%;
+    grid-auto-flow: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: start;
+    grid-template-areas: "ianipoza ianitext";
+    width: 90.4%;
+    height: auto;
+    scroll-margin: 5% 0 0 5%;
+    scroll-snap-align: center;
+  }
+  #container_barbu {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 0.8fr;
+    gap: 10% 5%;
+    grid-auto-flow: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: start;
+    grid-template-areas: "barbutext barbupoza";
+    width: 90.4%;
+    scroll-snap-align: center;
+    
+  }
+  #container_vlad {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 0.8fr;
+    gap: 10% 5%;
+    grid-auto-flow: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: start;
+    grid-template-areas: "vladpoza vladtext";
+    width: 90.4%;
+    height: auto;
+    scroll-snap-align: center;
+  }
+  #container_alin {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 0.8fr;
+    gap: 10% 5%;
+    grid-auto-flow: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: start;
+    grid-template-areas: "Alintext alinpoza";
+    width: 90.4%;
+    scroll-snap-align: center;
+  }
+  p2 {
+    font-size: 2.3vw;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: "Prompt", sans-serif;
+  }
+  p{
+    font-size: 7vw;
+  }
+  .title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: center;
+    display: flex;
+    height: 15vh;
+    width: 100vw;
+    padding-bottom:10vh;
 }

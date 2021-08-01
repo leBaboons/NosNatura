@@ -50,14 +50,14 @@ section {
   font-family: "PT Sans Caption", sans-serif;
 }
 .m1{
-  height: 30vh;
+  height: 35vh;
   margin:auto;  
   border-radius: 25px;
   
 }
 .m2{
 
-  height: 30vh;
+  height: 35vh;
   margin:auto;  
   border-radius: 25px;
   
@@ -183,6 +183,7 @@ h2#counter {
   margin-bottom: auto;
   padding-right:10%;
   padding-left:10%;
+  padding-bottom: 15vh;
   height:40vh;
   width: 100vw;
   display: flex;
