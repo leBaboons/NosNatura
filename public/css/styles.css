@@ -36,7 +36,7 @@ body {
   height: 100vh;
 }
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 2vw;
   background: transparent;
 }
 section {
@@ -89,7 +89,6 @@ section p {
   grid-template-rows: 1fr 1fr;
   width: 100%;
   height: 80vh;
-  scroll-snap-align: start;
 }
 .poza1{
   float:left;
@@ -148,7 +147,6 @@ section p {
   height: 30vh;
 }
 .grid3{
-  scroll-snap-align: start;
   height:100vh;
   width: 100vw;
 }
@@ -205,7 +203,6 @@ h2#counter {
   justify-content: normal;
   align-items: normal;
   align-content: normal;
-  scroll-snap-align: start;
 }
 
 p2{

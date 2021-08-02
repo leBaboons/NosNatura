@@ -65,6 +65,7 @@ footer{
 }
 .iglogo{
   filter: drop-shadow(0.15vw 0.05vw 0.01vw #a8937c);
+  margin: auto;
 }
 @media screen and (max-width : 600px ) {
   button {
@@ -131,10 +132,11 @@ footer{
     width:30vw;
     height:6vh;
     margin: auto;
-    justify-content: flex-end;
   }
   .iglogo{
     filter: drop-shadow(0.15vw 0.05vw 0.01vw #a8937c);
+    display: center;
+    width: 10vw;
   }
 }
 @media screen and (max-width : 950px ) {
@@ -195,7 +197,7 @@ footer{
     align-items: center;
     padding: 1vw 16vw;
     width: 100vw;
-    height: 12vh;
+    height: 8vh;
     background-color:#ceb698 ;
     box-shadow: 0 -0.25vw 0.3vw #a8937c;
   }
@@ -203,9 +205,10 @@ footer{
     width:30vw;
     height:6vh;
     margin: auto;
-    justify-content: flex-end;
   }
   .iglogo{
     filter: drop-shadow(0.15vw 0.05vw 0.01vw #a8937c);
+    display: center;display: flex;
+    margin: auto;
   }
 }
